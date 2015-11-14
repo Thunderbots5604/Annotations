@@ -17,6 +17,8 @@
 package io.github.thunderbots.lightning.annotation;
 
 import java.lang.annotation.Documented;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 
 /**
  * The {@code OpMode} annotation should be added to all op modes that appear in the op mode
@@ -27,6 +29,7 @@ import java.lang.annotation.Documented;
  *
  * @author Pranav Mathur
  */
+@Retention(RetentionPolicy.RUNTIME)
 @Documented
 public @interface OpMode {
 
