@@ -53,12 +53,5 @@ public @interface OpMode {
 	 * @return the name of the op mode.
 	 */
 	String name();
-	
-	/**
-	 * Determines whether or not the OpMode needs to be sent from 
-	 * the Robot Controller to the Driver Station
-	 * @return
-	 */
-	boolean active() default false;
 
 }
