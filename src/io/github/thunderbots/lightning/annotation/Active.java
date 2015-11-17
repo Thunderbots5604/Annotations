@@ -9,6 +9,8 @@ import java.lang.annotation.Target;
 /**
  * Determines whether or not the OpMode needs to be sent from 
  * the Robot Controller to the Driver Station
+ * 
+ * @author Pranav Mathur
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
