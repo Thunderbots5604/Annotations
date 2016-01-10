@@ -18,4 +18,4 @@
  * Provides annotations used in the Lightning SDK and
  * the Thunderbots Robot Controller
  */
-package io.github.thunderbots.lightning.annotation;
+package io.github.thunderbots.annotation;
