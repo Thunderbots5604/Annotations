@@ -14,7 +14,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package io.github.thunderbots.lightning.annotation;
+package io.github.thunderbots.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
